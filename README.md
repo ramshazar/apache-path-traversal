@@ -1,6 +1,13 @@
 thx to:
+
 Daniel https://twitter.com/dhauenstein
+
 Schniggie https://twitter.com/schniggie/status/1445425766141992963
+
+They only change to the original config is that I commented out this block:
+
+https://github.com/ramshazar/apache-path-traversal/blob/main/exploitable-httpd.conf#L248-L251
+
 
 ```
 bash-3.2$ git clone https://github.com/ramshazar/apache-path-traversal.git
